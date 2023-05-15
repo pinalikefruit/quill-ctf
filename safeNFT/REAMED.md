@@ -6,23 +6,22 @@
 
 <br />
 <div align="center">
-  <h1 align="center">Road Closed    [SOLUTION]</h3>
+  <h1 align="center">safeNFT   [SOLUTION]</h3>
 
   <p align="center">
-    🍍Hi  here you can found one of the solution for the challenge Road Closed  !
+    🍍Hi  here you can found one of the solution for the challenge safeNFT !
   </p>
 </div>
 
 ## Challenge
-- Become the owner of the contract
-- Change the value of hacked to true
+- Claim multiple NFTs for the price of one.
 
 > Solution: 
-    Check `test/RoadClosed.t.sol`
+    Check `test/safeNFT.t.sol`
 
 ## Complementary information to solve the challenge
-* [Access control vulnerability](https://academy.quillaudits.com/challenges/quillctf-challenges/road-closed)
-* [Contract Size](https://solidity-by-example.org/hacks/contract-size/)
+* [Reentrancy](https://github.com/kadenzipfel/smart-contract-vulnerabilities/blob/master/vulnerabilities/reentrancy.md)
+* [OZ erc721 implementation](https://docs.openzeppelin.com/contracts/4.x/erc721)
 
 <!-- ## Extra help -->
 
@@ -53,7 +52,7 @@ Clone this repo
 ```
 git clone pinalikefruit/quill-ctf
 
-cd Road-Closed
+cd safeNFT
 
 ```
 
@@ -71,7 +70,7 @@ forge install
 
 
 ### Preventative Techniques
-> Use the [ControlAccess](https://docs.openzeppelin.com/contracts/2.x/access-control) library of OpenZeppelin.
+> Use the [ReentrancyGuard](https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard) library of OpenZeppelin
 
 ## License
 
