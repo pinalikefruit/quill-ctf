@@ -50,6 +50,7 @@ This will be the dynamic for each challenge:
 ## Table of Contents
 
 1. <a href="https://github.com/pinalikefruit/quill-ctf/tree/master/Road-Closed"> Road-Closed</a>
+2. <a href="https://github.com/pinalikefruit/quill-ctf/tree/master/safeNFT"> safeNFT</a>
 
 
 
