@@ -4,7 +4,7 @@ pragma solidity 0.8.7;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
-contract safeNFT is ERC721Enumerable {
+contract SafeNFT is ERC721Enumerable {
     uint256 price;
     mapping(address => bool) public canClaim;
 
